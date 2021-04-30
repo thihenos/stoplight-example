@@ -1,0 +1,23 @@
+{
+  "exclude": [],
+  "formats": {
+    "openapi": {
+      "rootDir": "stoplight/reference",
+      "include": [
+        "**"
+      ]
+    },
+    "json_schema": {
+      "rootDir": "stoplight/models",
+      "include": [
+        "**"
+      ]
+    },
+    "markdown": {
+      "rootDir": "stoplight/docs"
+    },
+    "image": {
+      "rootDir": "stoplight/assets/images"
+    }
+  }
+}

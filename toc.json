@@ -1,0 +1,22 @@
+{
+  "items": [
+    {
+      "type": "divider",
+      "title": "Divider"
+    },
+    {
+      "type": "item",
+      "title": "Hello doc",
+      "uri": "stoplight/docs/doc-cms-edit.md"
+    },
+    {
+      "type": "divider",
+      "title": "APIs"
+    },
+    {
+      "type": "item",
+      "title": "API Image",
+      "uri": "stoplight/reference/image-app/api-example.yaml"
+    }
+  ]
+}

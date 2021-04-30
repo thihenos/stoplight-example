@@ -1,0 +1,15 @@
+pool:
+  vmImage: 'ubuntu-latest'
+
+trigger:
+- master
+
+steps:
+  - task: UsePythonVersion@0
+    inputs:
+      versionSpec: '3.7'
+    displayName: 'Use Python 3.7'
+
+  - script: |
+      npx @stoplight/cli@5 push --ci-token <TOKEN_STOPLIGHT> --url <YOUR_STOPLIGHT_URL> 
+    displayName: "Push docs to stoplight"

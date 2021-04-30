@@ -1,0 +1,9 @@
+image: python
+
+pipelines:
+  branches:
+    master:
+      - step:
+          name: Stoplight
+          script:
+            - npx @stoplight/cli@5 push --ci-token ${TOKEN_STOPLIGHT} --url ${YOUR_STOPLIGHT_URL}
